@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "SchemaTranslators": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 8080",
+      "useSSL": false
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 31324,
+      "useSSL": false
+    }
+  }
+}
